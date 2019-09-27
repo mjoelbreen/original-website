@@ -1,0 +1,143 @@
+body {
+    font-size: 11pt;
+    font-family: Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+    background-image: url("blue squares.jpeg");
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+}
+
+
+h1 {
+    font: 36pt Helvetica, Verdana, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 20pt;
+    text-align: center;
+    padding-top: 16px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+p.subheader {
+    font: 16pt Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+        font-weight: bold;
+    color: black;
+}
+
+p.caption {
+    font: 10pt Georgia, Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    padding-top: 10px;
+}
+
+p.description {
+    font: 11pt Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 10px;
+    line-height: 14pt;
+}
+
+img.head {
+    padding-top: 15px;
+    width: 720px;
+    height: 405px;
+    padding-left: 140px;
+}
+
+img.sample {
+    padding-top: 15px;
+    padding-left: 85px;
+}
+
+iframe {
+    padding-top: 15px;
+    padding-left: 215px;
+}
+
+a {
+    text-decoration: none;
+    color:green;
+}
+
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a:active {
+    color: turquoise;
+}
+
+nav {
+    text-align: center;
+    background-color: #FF9933;
+    padding: none;
+    
+}
+
+nav ul {
+    font: 16pt Helvetica, Arial, sans-serif;
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+}
+
+
+#aboutmebox {
+    position: absolute;
+    font: 20px Georgia, Verdana, Arial, sans-serif;
+    color: black;
+    line-height: 30px;
+    top: 200px;
+    left: 315px;
+    width: 600px;
+    height: 700px;
+    border: 10px solid  #FF9933;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#projectsbox {
+    position: absolute;
+    font: 20px Georgia, Verdana, Arial, sans-serif;
+    color: black;
+    line-height: 30px;
+    left: 115px;
+    width: 1000px;
+    height: 2150px;
+    border: 10px solid  #FF9933;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#contactbox {
+    position: absolute;
+    font: 20px Georgia, Verdana, Arial, sans-serif;
+    color: black;
+    line-height: 30px;
+    left: 375px;
+    width: 500px;
+    height: 250px;
+    border: 10px solid #FF9933;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+footer {
+    font-size: 9pt;
+    color: white;
+    font-style: italic;
+    line-height: 12pt;
+    text-align: center;
+    padding-top: 1750px;
+}
